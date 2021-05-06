@@ -3,7 +3,7 @@ import pandas as pd;
 from sklearn.model_selection import train_test_split
 import torch.nn as nn
 import torch.nn.functional as F
-df = pd.read_csv("C:/Users/amogh/Downloads/diabetes.csv")
+df = pd.read_csv("./diabetes.csv")
 print(df.head())
 feature_cols = [ 'Insulin', 'BMI', 'Age', 'Glucose', 'BloodPressure','Pregnancies']
 x = df[feature_cols]
