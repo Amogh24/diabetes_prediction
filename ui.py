@@ -1,10 +1,10 @@
 import streamlit as st
 from Model import run
 from PIL import Image
-img = Image.open(r"C:/Users/amogh/Downloads/db1.jpg")
-img2 = Image.open(r"C:/Users/amogh/Downloads/db2.jpg")
-img3 = Image.open(r"C:/Users/amogh/Downloads/db3.jpg")
-img5 = Image.open(r"C:/Users/amogh/Downloads/db5.jfif")
+img = Image.open(r"./db1.jpg")
+img2 = Image.open(r"./db2.jpg")
+img3 = Image.open(r"./db3.jpg")
+img5 = Image.open(r"./db5.jfif")
 st.title('Diabetes Prediction')
 st.image(img)
 st.sidebar.title("Tips to stay disease-free")
