@@ -69,7 +69,7 @@ if(st.button('Calculate BMI')):
     elif(bmi >= 30):
         st.error("Extremely Overweight")
 age = st.number_input('AGE')
-bp = st.number_input("BLOOD PRESSURE")
+bp = st.number_input("DIASTOLIC BLOOD PRESSURE(if the reading is 120/80, enter 80)")
 glucose = st.number_input("GLUCOSE LEVEL")
 insulin = st.number_input("INSULIN")
 pregnancies = st.slider("NUMBER OF PREGNANCIES",0,10)
